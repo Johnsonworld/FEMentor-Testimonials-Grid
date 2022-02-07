@@ -56,6 +56,14 @@ table {
 /*-----------------------------------------------------------------------------------------------------
 --------------------------------------End of CSS Reset section-----------------------------------------
 -------------------------------------------------------------------------------------------------------*/
+
+
+
+
+html {
+    box-sizing: border-box;
+}
+
 body {
     font-size: 13px;
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -64,38 +72,110 @@ body {
 
 .testimonials {
     display: grid;
-    padding: 10px;
+    /* padding: 10px; */
     background-color: hsl(210, 46%, 95%);
-
+    max-width: 100%;
+    padding-bottom: 2rem;
 }
 
 .panel {
+    display: grid;
+    border-radius: 3%;
+    padding: 0 1.1rem 4rem;
+    max-width: 100%;
+    margin: 0 1.5rem 1.5rem;
+ 
+}
 
-    /* border-radius: 10%; */
-    padding: 20px;
-    margin: 10px;
+.first.panel {
+    grid-auto-rows: 50px;
+    /* height: auto; */
+    margin-top: 3rem;
 
 }
 
-.verification {
+.avatar {
+    width: 1.9rem;
+    border-radius: 50%;
+    border: 1px solid;
+    margin-right: 1rem;
+    margin-top: -.25rem;
+    border: 3px solid;
+    /* color: rgba(255, 255, 255, 0.5); */
+}
+
+.first.avatar {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.second.avatar {
+    color: rgba(72, 85, 106, .5);
+}
+
+.third.avatar {
+    color: rgb(255, 255, 255, .5);
+
+}
+
+.fourth.avatar {
+    color: rgb(117, 65, 200);
+}
+
+.fifth.avatar {
+    color: rgb(255, 255, 255, .5);
+}
+
+.title-block {
+
+    display: grid;
+    grid-template-areas:
+        "left right";
+    grid-template-columns: 3fr 1fr;
+
+
+}
+
+
+
+
+
+span {
     opacity: 50%;
+    clear: both;
+    display: inline-block;
+    width: 100%;
 }
+
+.left {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5rem;
+
+}
+
 
 
 p {
     font-size: 1.2rem;
-    padding: 1rem 0;
+    padding: 1.2rem 0 1rem;
     letter-spacing: .05rem;
     font-weight: 500;
+    line-height: 1.1em;
 }
-
 
 blockquote {
     opacity: 70%;
+    line-height: 1.1em;
+    letter-spacing: .05rem;
+}
+
+blockquote:first-of-type {
+    grid-row: 5/8;
+    padding-top: .5rem;
 }
 
 .panel:nth-child(1) {
-    background-color: hsl(263, 55%, 52%);
+    background-color: rgb(117, 65, 200);
     color: hsl(0, 0%, 100%);
     display: grid;
 }
@@ -119,20 +199,10 @@ blockquote {
     display: grid;
 }
 
+.avatar:nth-child(4) {
+    color: rgb(117, 65, 200);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 .attribution {
     font-size: 11px;
