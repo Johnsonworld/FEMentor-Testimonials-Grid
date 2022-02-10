@@ -80,7 +80,6 @@ body {
 
 .testimonials {
     display: grid;
-    /* padding: 10px; */
     background-color: var(--testimonial-bg);
     max-width: 100%;
 
@@ -90,19 +89,14 @@ body {
     display: grid;
     border-radius: 3%;
     padding: 0 1.1rem 2.5rem;
-    /* max-width: 375px; */
     margin: 0 1.5rem 1.5rem;
-    /* grid-auto-columns: auto; */
     box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 
 
 }
 
 .first.panel {
-    /* grid-auto-rows: 40%; */
-    /* height: auto; */
     margin-top: 3rem;
-
 }
 
 .avatar {
@@ -112,12 +106,10 @@ body {
     margin-right: 1rem;
     margin-top: -.25rem;
     border: 3px solid;
-    /* color: rgba(255, 255, 255, 0.5); */
 }
 
 .first.avatar {
     color: var(--avatar-1-border);
-
 }
 
 .second.avatar {
@@ -126,7 +118,6 @@ body {
 
 .third.avatar {
     color: var(--avatar-3-5-border);
-
 }
 
 .fourth.avatar {
@@ -138,12 +129,10 @@ body {
 }
 
 .title-block {
-
     display: grid;
     grid-template-areas:
         "left right";
     grid-template-columns: 3fr 1fr;
-
 }
 
 
@@ -164,7 +153,6 @@ span {
 
 .first.summary {
     margin-top: -2em;
-
 }
 
 p {
@@ -184,21 +172,18 @@ blockquote {
 
 blockquote:first-of-type {
     grid-row: 5/8;
-
 }
 
 .panel:nth-child(1) {
     background-color: var(--panel-1-bg);
     color: hsl(0, 0%, 100%);
     display: grid;
-
 }
 
 .panel:nth-child(2) {
     background-color: var(--panel-2-bg);
     color: hsl(0, 0%, 100%);
     display: grid;
-
 }
 
 .panel:nth-child(3),
@@ -206,29 +191,24 @@ blockquote:first-of-type {
     background-color: var(--panel-3-5-bg);
     color: hsl(219, 29%, 14%);
     display: grid;
-
 }
 
 .panel:nth-child(4) {
     background-color: var(--panel-4-bg);
     color: hsl(0, 0%, 100%);
     display: grid;
-
 }
 
 
 .avatar:nth-child(4) {
     color: rgb(117, 65, 200);
     grid-area: fourth;
-
 }
 
 .attribution {
-
     font-size: 11px;
     text-align: center;
     max-width: 100%;
-    /* padding: 1%; */
 }
 
 .attribution a {
@@ -238,19 +218,12 @@ blockquote:first-of-type {
 @media screen and (min-width: 769px) {
     .testimonials {
         grid-gap: 15px;
-        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
         grid-template-areas:
             "first first first second fifth"
             "third fourth fourth fourth fifth";
-        /* max-width: 768px; */
         padding: 5% 6%;
-        /* height: 740px; */
         margin: 3%;
         box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-
-        /* grid-auto-rows: auto; */
-
-
     }
 
     .panel {
