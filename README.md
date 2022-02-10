@@ -25,14 +25,20 @@ Users should be able to:
 
 ### Screenshot
 
-[Johnsonworld Desktop Screenshot](images/Testimonial-Desktop-Screenshot.jpeg)
-[Johnsonworld Mobile Screenshot](images/Testimonial-Mobile-Screenshot.jpeg)
+![](images/Testimonial-Desktop-Screenshot.jpeg)
+
+Screenshot of desktop version.
+
+![](images/Testimonial-Mobile-Screenshot.jpeg)
+
+Screenshot of mobile version.
 
 
 ### Links
 
-- Solution URL: [Solution URL:](https://github.com/Johnsonworld/Fementor-Testimonials-Grid)
-- Live Site URL: [Live Site URL:](https://johnsonworld.github.io/Fementor-Testimonials-Grid/)
+- Solution URL: [Johnsonworld Testimonial Code](https://github.com/Johnsonworld/Fementor-Testimonials-Grid)
+
+- Live Site URL: [Johnsonworld Testimonial Live Site](https://johnsonworld.github.io/Fementor-Testimonials-Grid/)
 
 ## My process
 
