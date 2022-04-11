@@ -38,7 +38,7 @@ Screenshot of mobile version.
 
 - Solution URL: [Johnsonworld Testimonial Code](https://github.com/Johnsonworld/Fementor-Testimonials-Grid)
 
-- Live Site URL: [Johnsonworld Testimonial Live Site](https://johnsonworld.github.io/Fementor-Testimonials-Grid/)
+- Live Site URL: [Johnsonworld Testimonial Live Site](https://johnsonworld.github.io/FEMentor-Testimonials-Grid/)
 
 ## My process
 
